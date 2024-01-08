@@ -18,7 +18,10 @@
     "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.2",
     "react-native": "0.72.6",
+    "react-native-gesture-handler": "^2.14.0",
     "styled-components": "^6.1.7",
     "zod": "^3.22.4"
   },
