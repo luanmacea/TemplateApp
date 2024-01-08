@@ -2,7 +2,7 @@ import React from 'react'
 import { createDrawerNavigator } from '@react-navigation/drawer'
 import { Feather } from '@expo/vector-icons'
 
-import Home from '../screen/Home'
+import Home from '~/screens/Home'
 
 const Drawer = createDrawerNavigator()
 
