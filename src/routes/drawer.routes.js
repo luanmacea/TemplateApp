@@ -1,9 +1,10 @@
-import { createDrawerNavigator } from "@react-navigation/drawer";
-import { Feather } from "@expo/vector-icons";
+import React from 'react'
+import { createDrawerNavigator } from '@react-navigation/drawer'
+import { Feather } from '@expo/vector-icons'
 
-import Home from "../screen/Home";
+import Home from '../screen/Home'
 
-const Drawer = createDrawerNavigator();
+const Drawer = createDrawerNavigator()
 
 export default function DrawerRoutes() {
   return (
@@ -14,9 +15,9 @@ export default function DrawerRoutes() {
         options={{
           drawerIcon: ({ color }) => (
             <Feather name="home" size={24} color={color} />
-          ),
+          )
         }}
       />
     </Drawer.Navigator>
-  );
+  )
 }
