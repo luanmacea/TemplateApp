@@ -7,7 +7,7 @@ import Routes from './src/routes'
 
 export default function App() {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ flex: 1 }}>
       <StatusBar />
       <Routes />
     </SafeAreaView>

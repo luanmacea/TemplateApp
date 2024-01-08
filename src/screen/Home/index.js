@@ -1,10 +1,11 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { Container, Title } from './styled'
 
 export default function Home() {
+  console.log('home')
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <Container>
+      <Title>Home</Title>
+    </Container>
   )
 }
